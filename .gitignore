@@ -1,0 +1,56 @@
+ 
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Django specific
+*.log
+*.pot
+*.py[cod]
+*.swp
+*.swo
+*.bak
+
+# Static files
+/static/
+media/
+
+# Local environment variables
+.env
+*.env
+
+# IDEs
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python Wheel
+*.whl
+
+# Coverage
+.coverage
+.coverage.*
+*.cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json

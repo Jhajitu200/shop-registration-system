@@ -1,0 +1,17 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop List</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'Shops/css/style.css' %}">
+</head>
+<body>
+    <h1>Nearby Shops</h1>
+    <ul>
+        {% for shop, distance in shops %}
+        <li>{{ shop.name }} - {{ distance }} km away</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
