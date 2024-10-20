@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'ShopRegistrationSystem.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'shop-registration',  # Replace with your actual database name
+        'NAME': 'shop_8rbj',  # Replace with your actual database name
         'USER': 'shop_8rbj_user',  # Replace with your actual username
         'PASSWORD': 'N1iHgROQUmEfQI77XRvYTWMvziQjstal',  # Replace with your actual password
-        'HOST': 'localhost',  # Or the actual host
+        'HOST': 'dpg-cs9s5n88fa8c73cg6phg-a',  # Hostname provided by Render
         'PORT': '5432',  # Default port for PostgreSQL
     }
 }
