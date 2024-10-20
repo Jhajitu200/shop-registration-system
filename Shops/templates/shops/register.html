@@ -1,0 +1,17 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Shop</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'Shops/css/style.css' %}">
+</head>
+<body>
+    <h1>Register a New Shop</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Register Shop</button>
+    </form>
+</body>
+</html>
